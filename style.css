@@ -1,0 +1,77 @@
+
+}
+
+body {
+	
+	font-family: 'comic sans ms','cooper black', Arial;
+	
+	
+}
+
+@media (min-width: 992px) {
+
+	div {
+		width: 30%;
+	}
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+
+	#box1, #box2 {
+		
+		width: 45%;
+		margin-left: 20px;
+		margin-right: 10px;
+		margin-top: 50px;
+	}
+	#box3 {
+		
+		width: 95%;
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	div {
+		width: 95%;
+	}
+}
+
+h1 {
+	text-align: center;
+	
+}
+div {
+	box-sizing: border-box;
+	background-color: gray;
+	border: 1px solid black;
+	float: left;
+
+	margin-bottom: 20px;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	border: 2px solid black;
+	float: right;
+	text-align: center;
+}
+
+section {
+	clear: right;
+}
+
+#p1 {
+	background-color: pink;
+}
+
+#p2 {
+	background-color: red;
+}
+
+#p3 {
+	background-color: yellow;
+}
